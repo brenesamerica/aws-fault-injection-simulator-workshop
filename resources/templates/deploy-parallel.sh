@@ -68,7 +68,7 @@ call_deploy_script "access-controls" "Access controls stack"
 
 
 # Need to sequence construction
-#(
+(
     # RDS/aurora stack uses CDK
     # ... depends on VPC
     call_deploy_script "rds" "RDS stack" 
